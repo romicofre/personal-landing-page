@@ -1,0 +1,16 @@
+
+<footer style="position:fixed;bottom:0;left:0;width:100%;">
+    <div class="container">
+    <div class="center-align">
+        
+    <div class="footer-copyright">
+        <div class="container">
+            &copy; {{ now.Format "2006" }} {{ range .Site.Author }}{{ . }}{{ end }}.
+            Made with ♥ using <a href=https://gohugo.io>Hugo</a> and <a href=https://materializecss.com>Materialize</a><br>
+            Copyright {{ now.Year }} {{ site.Author }}. All rights reserved.            
+        </div> 
+    </div>
+    </div>
+    </div>
+</footer>
+

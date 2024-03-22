@@ -1,0 +1,5 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Romi C'
+author = 'Romina Cofre'
+theme = 'simple-presentation'
